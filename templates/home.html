@@ -1,0 +1,24 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> DIABETIC PREDICTION </h1><br>
+        
+        <form method="POST", action="{{url_for('man')}}">
+           <b> pregnencies :  <input type="text", name='pregnencies', placeholder="enter pregnencies"> <br><br>
+            glucose :  <input type="text", name='glucose', placeholder="enter Glucose"> <br><br>
+            bp :  <input type="text", name='bloodpressure', placeholder="enter Bp"> <br><br>
+            st :  <input type="text", name='skinthickness', placeholder="enter ST"> <br><br>
+            insulin:  <input type="text", name='insulin', placeholder="enter Insulin"> <br><br>
+            bmi :  <input type="text", name='bmi', placeholder="enter BMI"> <br><br>
+            dpf :  <input type="text", name='dpf', placeholder="enter DPF"> <br><br>        
+            age : <input type="text", name='age', placeholder="enter Age"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+
+    </center>
+
+    </body>
+</html>
